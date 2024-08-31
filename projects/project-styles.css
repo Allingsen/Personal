@@ -27,6 +27,8 @@ body {
 	color: black;
 	background: linear-gradient(45deg, var(--color-zero), var(--color-one), var(--color-zero));
     overflow-x: hidden;
+    background-attachment: fixed;
+
 }
 ol, ul {
 	list-style: none;
@@ -201,6 +203,7 @@ figcaption {
     font-size: 1em;
     font-family: var(--font-two), sans-serif;
     font-style: italic;
+    margin-left: 5%;
 }
 
 #img-wrapper {
@@ -215,7 +218,7 @@ figcaption {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;;
+    justify-content: center;
 }
 
 /* Media Queries */
